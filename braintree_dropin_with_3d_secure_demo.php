@@ -290,24 +290,23 @@ if (isset($_POST['action']) && $_POST['action'] == 'generateclienttoken')
                 container: 'dropin',
                 onPaymentMethodReceived:function(obj){
                     
-					var client = new braintree.api.Client({
-						clientToken: bt_client_token
-					});
-					
-					client.verify3DS({
-					  amount: $('#amount').val(),
-					  creditCard: obj.nonce
-					}, function (error, response) {
-					  if (!error) {
-						// 3D Secure finished. send the response.nonce to server for further processing
-						BTFn.appendTo(document.forms.checkout, 'input', {name: 'payment_method_nonce', type: 'hidden', value: response.nonce});
-                    	document.forms.checkout.submit();
-					  } else {
-						// Handle errors
-						alert("Error : "+error.message);
-					  }
-					});
+                    var client = new braintree.api.Client({
+                        clientToken: bt_client_token
+                    });
 
+                    client.verify3DS({
+                        amount: $('#amount').val(),
+                        creditCard: obj.nonce
+                    }, function (error, response) {
+                        if (!error) {
+                            // 3D Secure finished. send the response.nonce to server for further processing
+                            BTFn.appendTo(document.forms.checkout, 'input', {name: 'payment_method_nonce', type: 'hidden', value: response.nonce});
+                            document.forms.checkout.submit();
+                        } else {
+                            // Handle errors
+                            alert("Error : "+error.message);
+                        }
+                    });
                 },
                 onReady:function(){
                     $('.loader_container').remove();
