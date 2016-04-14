@@ -109,7 +109,7 @@ if (isset($_POST['braintree_cust_id']))
 else
 if (isset($_POST['action']) && $_POST['action'] == 'generateclienttoken')
 {
-	//$braintree_cust_id = "31904842";
+	//$braintree_cust_id = "60033487";
 	// Generate the nonce and send it back
 	try
 	{
