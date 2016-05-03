@@ -1,6 +1,6 @@
 <?php
 /**
- * Braintree - Payment Gateway integration example
+ * Braintree - Payment Gateway integration with 3D secure example
  * ==============================================================================
  * 
  * @version v1.0: braintree_3D_secure_demo.php 2016/04/25
