@@ -1,0 +1,147 @@
+fieldset {
+    margin-bottom: 0 !important;
+}
+					
+.bt_form_wrap {
+    width: 95% !important;
+}
+
+#bt_card_number, #bt_cvv, #bt_exp_date {
+    background: #fff none repeat scroll 0 0;
+    height: 34px;
+
+	border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	padding: 0 10px !important;
+}
+
+#bt_card_number {
+    padding: 0 55px !important;
+}
+
+#cvv-icon.payment-method-icon {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -100px;
+    display: block;
+    text-indent: -999em;
+    position: relative;
+    top: -52px;
+    width: 44px;
+    float: right;
+    height: 26px;
+    left: -4px;
+    border: 1px solid #ccc;
+}
+
+.payment-method-icon.master-card {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -268px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.visa {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -380px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.american-express {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -352px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.diners-club {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -128px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.maestro {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -240px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.discover {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -156px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.payment-method-icon.jcb {
+    background-image: url("img/braintree_dropin_sprite.png");
+    background-position: 0 -212px;
+    display: block;
+    height: 28px;
+    text-indent: -999em;
+    width: 44px;
+
+	position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.inputError {
+    box-shadow: 0 0 5px #ff0101 !important;
+}
+
+.invalid {
+    box-shadow: 0 0 5px #ff0101 !important;
+}
+
+label {
+    text-transform:none !important;
+     font-size: 13px !important;
+}
+
+.pay-btn {
+	background: #69a219 none repeat scroll 0 0 !important;
+    border-color: #558512 !important;
+    border-style: solid !important;
+    border-width: 1px 1px 3px !important;
+	font-weight: bold;
+}
