@@ -49,14 +49,14 @@ if(isset($_POST['make_payment']) && $_POST['make_payment'])
 	// Customer billing details
 	$firstname = $_POST['firstname'];
 	$lastname  = $_POST['lastname'];
-	$email     = $_POST['email'];
+	$email     = $_POST['c_email'];
 	$address1  = $_POST['address1'];
 	$address2  = $_POST['address2'];
 	$city      = $_POST['city'];
 	$state     = $_POST['state'];
 	$postcode  = $_POST['postcode'];
 	$country   = $_POST['country'];
-	$phone     = $_POST['phonenumber'];
+	$phone     = $_POST['c_phonenumber'];
 	// EOF Customer billing details
 
 	$payment_method_nonce = "";
