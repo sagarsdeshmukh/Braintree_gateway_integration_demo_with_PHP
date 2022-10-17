@@ -4,7 +4,7 @@
  * ==============================================================================
  * 
  * @version v1.0: braintree_dropin_with_3d_secure_demo.php 2022/09/25
- * @copyright Copyright (c) 2016, http://www.ilovephp.net
+ * @copyright Copyright (c) 2022, http://www.ilovephp.net
  * @author Sagar Deshmukh <sagarsdeshmukh91@gmail.com>
  * You are free to use, distribute, and modify this software
  * ==============================================================================
